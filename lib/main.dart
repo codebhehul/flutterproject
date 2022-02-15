@@ -23,8 +23,11 @@ class MyApp extends StatelessWidget {
       ),
       initialRoute: "/",
       routes: {
+        // ignore: prefer_const_constructors
         "/": (context) => LoginPage(),
+        // ignore: prefer_const_constructors
         MyRoutes.homeRoute: (context) => HomePage(),
+        // ignore: prefer_const_constructors
         MyRoutes.loginRoute: (context) => LoginPage(),
       },
     );

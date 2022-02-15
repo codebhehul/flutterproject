@@ -9,6 +9,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        // ignore: prefer_const_constructors
         title: Text("Currency Converter"),
       ),
       body: Center(
@@ -16,6 +17,7 @@ class HomePage extends StatelessWidget {
           child: Text("Welcome to $days Flutter with $name"),
         ),
       ),
+      // ignore: prefer_const_constructors
       drawer: Drawer(),
     );
   }
