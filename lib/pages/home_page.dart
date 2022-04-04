@@ -10,8 +10,9 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        centerTitle: true,
         // ignore: prefer_const_constructors
-        title: Text("Currency Converter"),
+        title: Text("Book Store App"),
       ),
       body: Center(
         // ignore: avoid_unnecessary_containers

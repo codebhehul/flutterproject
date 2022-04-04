@@ -7,7 +7,7 @@ import 'package:flutter/material.dart';
 class MyDrawer extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    final imageURL = "https://cdn-icons-png.flaticon.com/512/149/149071.png";
+    const imageURL = "https://cdn-icons-png.flaticon.com/512/149/149071.png";
     return Drawer(
         child: Container(
       color: Colors.deepPurple,
